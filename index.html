@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>National History Challenge 2026: Voices | Magna Carta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Magna Carta home">Magna Carta</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#thesis">Thesis</a>
+        <a href="#gallery">Images</a>
+        <a href="#voices">Voices</a>
+        <a href="#turning-points">Timeline</a>
+        <a href="#legacy">Legacy</a>
+        <a href="#sources">Sources</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            src="assets/magna-carta-manuscript.jpg"
+            alt="Magna Carta manuscript"
+            width="1280"
+            height="853"
+          />
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">National History Challenge 2026: Voices</p>
+          <img
+            class="theme-banner"
+            src="assets/voices-theme-banner.png"
+            alt="The theme for the 2026 National History Challenge is Voices"
+            width="192"
+            height="62"
+          />
+          <h1 id="hero-title">Magna Carta</h1>
+          <p class="hero-subtitle">
+            Magna Carta began as a tense agreement in 1215, but its real importance came later.
+            People kept returning to it when they wanted law to matter more than power, and that is part of the bigger story of democracy.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#voices">Explore the story</a>
+            <a class="secondary-action" href="#thesis">See the voices</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-band" id="thesis">
+        <div class="section-inner two-column">
+          <div>
+            <p class="section-kicker">Central argument</p>
+            <h2>One charter, many voices, a longer democratic story</h2>
+          </div>
+          <div class="lead-panel story-panel">
+            <p>
+              Magna Carta did not instantly create democracy. It started as a practical compromise in a political crisis,
+              but it mattered because it put promises in writing and showed that even a king could be answered back.
+            </p>
+            <div class="inline-images" aria-label="Historical images">
+              <figure class="mini-card">
+                <img
+                  src="assets/king-john-miniature.jpg"
+                  alt="King John from an illuminated manuscript"
+                  width="360"
+                  height="293"
+                />
+                <figcaption>King John was not a neat symbol of power; he was a ruler under pressure.</figcaption>
+              </figure>
+              <figure class="mini-card">
+                <img
+                  src="assets/king-john-seal.jpg"
+                  alt="Seal of King John"
+                  width="932"
+                  height="971"
+                />
+                <figcaption>The seal reminds us that royal authority could be fixed onto a document.</figcaption>
+              </figure>
+            </div>
+            <p>
+              Over time, different generations kept rereading the charter in new ways. Each time they did,
+              they pushed the argument a little further toward law, fairness, and wider political voice.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section gallery-section" id="gallery">
+        <div class="section-inner">
+          <div class="section-heading compact">
+            <p class="section-kicker">Visual snapshots</p>
+            <h2>A few images that make the story feel real</h2>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-card featured">
+              <img
+                src="assets/houses-of-parliament.jpg"
+                alt="Houses of Parliament in London"
+              />
+              <figcaption>
+                Later democracy took shape in places like Parliament, where debate replaced the older idea of pure royal command.
+              </figcaption>
+            </figure>
+
+            <figure class="gallery-card">
+              <img
+                src="assets/runnymede-memorial.jpg"
+                alt="Magna Carta Memorial at Runnymede"
+              />
+              <figcaption>
+                Runnymede became the place people look to when they talk about freedom under law.
+              </figcaption>
+            </figure>
+
+            <figure class="gallery-card">
+              <img
+                src="assets/king-john.jpg"
+                alt="Portrait of King John"
+              />
+              <figcaption>
+                King John was a complicated figure, which is why the story stays interesting.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section voices-section" id="voices">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Interactive exhibit</p>
+            <h2>Whose voices shaped Magna Carta?</h2>
+            <p>
+              Pick a voice to see who was speaking, who was left out, and how the charter kept echoing through later history.
+            </p>
+          </div>
+
+          <div class="voice-layout">
+            <div class="voice-tabs" role="tablist" aria-label="Voices in Magna Carta">
+              <button class="voice-tab active" type="button" role="tab" aria-selected="true" data-voice="barons">
+                Rebel barons
+              </button>
+              <button class="voice-tab" type="button" role="tab" aria-selected="false" data-voice="king">
+                King John
+              </button>
+              <button class="voice-tab" type="button" role="tab" aria-selected="false" data-voice="church">
+                Church leaders
+              </button>
+              <button class="voice-tab" type="button" role="tab" aria-selected="false" data-voice="towns">
+                Towns and merchants
+              </button>
+              <button class="voice-tab" type="button" role="tab" aria-selected="false" data-voice="silenced">
+                Unheard people
+              </button>
+              <button class="voice-tab" type="button" role="tab" aria-selected="false" data-voice="democracy">
+                Democracy later on
+              </button>
+            </div>
+
+            <article class="voice-card" aria-live="polite">
+              <p class="voice-label" id="voice-label">Voice of resistance</p>
+              <h3 id="voice-title">The barons pushed back against a king who asked for too much.</h3>
+              <p id="voice-body">
+                Magna Carta began with anger. After King John lost territory in France and kept asking for money,
+                many barons decided they had heard enough. They wanted promises in writing, not just royal speeches.
+                The charter protected elite landholding, limited some payments to the Crown, and made the king answer to rules he had agreed to follow.
+              </p>
+              <div class="voice-insight">
+                <span>What this shows</span>
+                <p id="voice-insight">
+                  This was not democracy yet, but it was a big moment for the idea that power could be challenged in writing.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section clause-band">
+        <div class="section-inner clause-grid">
+          <div>
+            <p class="section-kicker">The legal voice</p>
+            <h2>The charter turned protest into rules on paper.</h2>
+          </div>
+          <div class="clause-list" aria-label="Important ideas from Magna Carta">
+            <div>
+              <strong>Due process</strong>
+              <p>Free people could not be imprisoned or dispossessed without lawful judgment.</p>
+            </div>
+            <div>
+              <strong>Justice</strong>
+              <p>The Crown promised not to sell, deny, or delay access to justice.</p>
+            </div>
+            <div>
+              <strong>Consent</strong>
+              <p>Certain feudal payments required broader agreement instead of royal will alone.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="turning-points">
+        <div class="section-inner">
+          <div class="section-heading compact">
+            <p class="section-kicker">Turning points</p>
+            <h2>From crisis document to lasting symbol</h2>
+          </div>
+          <div class="timeline">
+            <button class="timeline-item active" data-year="1204" type="button">
+              <span>1204</span>
+              John loses Normandy, and the pressure on his rule starts to build.
+            </button>
+            <button class="timeline-item" data-year="1214" type="button">
+              <span>1214</span>
+              Military failure in France makes anger over taxation even stronger.
+            </button>
+            <button class="timeline-item" data-year="1215" type="button">
+              <span>June 1215</span>
+              At Runnymede, King John accepts Magna Carta as a peace settlement.
+            </button>
+            <button class="timeline-item" data-year="1216" type="button">
+              <span>1216</span>
+              The charter is reissued after John's death, helping it survive the crisis.
+            </button>
+            <button class="timeline-item" data-year="1297" type="button">
+              <span>1297</span>
+              Edward I confirms a version of Magna Carta as part of English statute law.
+            </button>
+          </div>
+          <aside class="timeline-detail" aria-live="polite">
+            <p class="detail-year" id="detail-year">1204</p>
+            <h3 id="detail-title">A king under pressure</h3>
+            <p id="detail-body">
+              John lost Normandy to the French king, which damaged his reputation and made later campaigns more expensive.
+              Money became one of the biggest reasons people started pushing back.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section legacy-section" id="legacy">
+        <div class="section-inner legacy-layout">
+          <div>
+            <p class="section-kicker">Historical significance</p>
+            <h2>Magna Carta grew louder as democracy evolved.</h2>
+            <p>
+              In 1215, Magna Carta was narrow and feudal. Later generations gave it new life.
+              Lawyers, reformers, colonists, and judges kept pointing back to it to argue that government must answer to law.
+              That is why it still matters: democracy grows when more people are heard, and when power has to explain itself.
+            </p>
+          </div>
+          <div class="legacy-stats" aria-label="Magna Carta facts">
+            <div>
+              <span>4</span>
+              <p>surviving 1215 originals</p>
+            </div>
+            <div>
+              <span>63</span>
+              <p>modern numbered clauses</p>
+            </div>
+            <div>
+              <span>800+</span>
+              <p>years of influence and reinterpretation</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section project-section">
+        <div class="section-inner two-column">
+          <div>
+            <p class="section-kicker">Competition focus</p>
+            <h2>How this connects to "Voices"</h2>
+          </div>
+          <div class="project-side">
+            <div class="project-points">
+              <p>
+                <strong>Conflict:</strong> Magna Carta grew out of an argument about who got to speak, and who had to listen.
+              </p>
+              <p>
+                <strong>Power:</strong> The barons forced the king to negotiate, while many ordinary people were still left out.
+              </p>
+              <p>
+                <strong>Legacy:</strong> Later generations turned a feudal deal into part of the bigger story of rights and democracy.
+              </p>
+            </div>
+            <p class="project-note">
+              The shift was slow. Magna Carta was only one step, but it helped later generations imagine government as something that had to justify itself.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section sources-section" id="sources">
+        <div class="section-inner">
+          <div class="section-heading compact">
+            <p class="section-kicker">Works cited</p>
+            <h2>Sources</h2>
+          </div>
+          <div class="sources-list">
+            <a href="https://www.youtube.com/watch?v=9zT4hkAxzLg" target="_blank" rel="noreferrer">
+              GuyFoxTV (2015). The Story of Magna Carta. YouTube. Available at: https://www.youtube.com/watch?v=9zT4hkAxzLg
+            </a>
+            <a href="https://www.cambridge.org/core/books/magna-carta/5A3C1A3E7C5A9B29B5D9D2A9E8A7E7A8" target="_blank" rel="noreferrer">
+              James Clarke Holt (2015). Magna Carta. Cambridge University Press.
+            </a>
+            <a href="https://www.parliament.uk/about/living-heritage/evolutionofparliament/originsofparliament/birthofparliament/overview/magnacarta/magnacartaclauses/" target="_blank" rel="noreferrer">
+              UK Parliament (2024). The contents of Magna Carta. [online] UK Parliament. Available at: https://www.parliament.uk/about/living-heritage/evolutionofparliament/originsofparliament/birthofparliament/overview/magnacarta/magnacartaclauses/
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>National History Challenge 2026: Voices</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
